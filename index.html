@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash - Python Full stack web Developer Portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fakashport4065back.builtwithrocket.new&_v=0.1.2"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="text-center">
+            <div class="mb-8">
+                <h1 class="text-4xl font-bold text-gradient mb-4">Welcome to Akash's Portfolio</h1>
+                <p class="text-text-secondary text-lg">Python Full stack web Developer & Software Developer</p>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="animate-pulse">
+                    <div class="w-16 h-1 bg-accent mx-auto rounded-full"></div>
+                </div>
+                <p class="text-text-secondary">Redirecting to homepage...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Redirect to homepage after 2 seconds
+        setTimeout(function() {
+            window.location.href = 'pages/homepage_ai_ml_developer_portfolio.html';
+        }, 2000);
+        
+        // Immediate redirect option for users who click
+        document.addEventListener('click', function() {
+            window.location.href = 'pages/homepage_ai_ml_developer_portfolio.html';
+        });
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                window.location.href = 'pages/homepage_ai_ml_developer_portfolio.html';
+            }
+        });
+    </script>
+<script id="dhws-dataInjector" src="/public/dhws-data-injector.js"></script>
+</body>
+</html>

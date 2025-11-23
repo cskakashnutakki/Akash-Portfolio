@@ -15,8 +15,8 @@ You can directly **copy-paste this README.md** into your GitHub repo.
 Welcome to my **personal developer portfolio**, built to showcase my journey as a **Python Full-Stack Web Developer**, **Software Developer**, and **AI/ML Learner**.
 This website highlights my projects, skills, experience, and the work I’m passionate about.
 
-🚀 **View Portfolio:**
-👉 [https://cskakash-portfolio.netlify.app/](https://cskakash-portfolio.netlify.app/)
+🚀 **View Portfolio:**  
+👉 https://cskakash-portfolio.netlify.app/
 
 ---
 
